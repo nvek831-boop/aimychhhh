@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "aimtrainer",
+  "version": "1.0.0",
+  "name": "AimTrainer",
+  "description": "Local PvP practice utilities and target-tracking HUD.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.aimtrainer.AimTrainerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
